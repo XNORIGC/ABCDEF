@@ -2,6 +2,7 @@
 patch:
   preset_keyboards/luna_pinyin_simp/import_preset: qwerty
 
+  style/candidate_padding: 24
   style/candidate_text_size: 24
   style/key_text_size: 24
   style/key_long_text_size: 20
