@@ -2,12 +2,13 @@
 patch:
   preset_keyboards/luna_pinyin_simp/import_preset: qwerty
 
-  style/candidate_padding: 24
-  style/candidate_text_size: 24
+  preset_keyboards/qwerty/label_transform: uppercase
   style/key_text_size: 24
   style/key_long_text_size: 20
   style/symbol_text_size: 16
-  preset_keyboards/qwerty/label_transform: uppercase
+  style/candidate_text_size: 24
+  style/candidate_padding: 24
+  style/candidate_font: [HYQiHei55S.ttf, HanaMinB.ttf]
 
   preset_keyboards/qwerty/keys/@0/click: a
   preset_keyboards/qwerty/keys/@1/click: b
@@ -48,35 +49,65 @@ patch:
   preset_keyboards/qwerty/keys/@8/swipe_right: ')'
   preset_keyboards/qwerty/keys/@8/swipe_down: '(){Left}'
   preset_keyboards/qwerty/keys/@9/swipe_down: Hide
-  preset_keyboards/qwerty/keys/@13/swipe_left: select_all
-  preset_keyboards/qwerty/keys/@13/swipe_right: '~'
-  preset_keyboards/qwerty/keys/@13/swipe_up: '-'
-  preset_keyboards/qwerty/keys/@14/swipe_up: '+'
-  preset_keyboards/qwerty/keys/@15/swipe_up: '\'
-  preset_keyboards/qwerty/keys/@16/swipe_up: '[]{Left}'
-  preset_keyboards/qwerty/keys/@16/swipe_down: '[]{Left}'
-  preset_keyboards/qwerty/keys/@17/swipe_up: '{}{Left}'
-  preset_keyboards/qwerty/keys/@17/swipe_down: '{}{Left}'
-  preset_keyboards/qwerty/keys/@18/swipe_up: ':'
-  preset_keyboards/qwerty/keys/@18/swipe_down: ':'
+  preset_keyboards/qwerty/keys/@11/long_click: '`'
+  preset_keyboards/qwerty/keys/@11/swipe_up: '`'
+  preset_keyboards/qwerty/keys/@11/swipe_down: '~'
+  preset_keyboards/qwerty/keys/@12/long_click: '-'
+  preset_keyboards/qwerty/keys/@12/swipe_up: '-'
+  preset_keyboards/qwerty/keys/@12/swipe_down: '_'
+  preset_keyboards/qwerty/keys/@13/long_click: '='
+  preset_keyboards/qwerty/keys/@13/swipe_up: '='
+  preset_keyboards/qwerty/keys/@13/swipe_down: '+'
+  preset_keyboards/qwerty/keys/@14/long_click: '\'
+  preset_keyboards/qwerty/keys/@14/swipe_up: '\'
+  preset_keyboards/qwerty/keys/@14/swipe_down: '|'
+  preset_keys/liquid_keyboard_history: {label: 常用, send: function, command: liquid_keyboard, option: "常用"}
+  preset_keyboards/qwerty/keys/@15/long_click: liquid_keyboard_history
+  preset_keyboards/qwerty/keys/@15/swipe_left: Left
+  preset_keyboards/qwerty/keys/@15/swipe_right: Right
+  preset_keyboards/qwerty/keys/@15/swipe_up: Up
+  preset_keyboards/qwerty/keys/@15/swipe_down: Down
+  preset_keyboards/qwerty/keys/@16/long_click: liquid_keyboard_clipboard
+  preset_keyboards/qwerty/keys/@16/swipe_left: Home
+  preset_keyboards/qwerty/keys/@16/swipe_right: End
+  preset_keyboards/qwerty/keys/@16/swipe_up: Page_Up
+  preset_keyboards/qwerty/keys/@16/swipe_down: Page_Down
+  preset_keyboards/qwerty/keys/@17/long_click: '[]{Left}'
+  preset_keyboards/qwerty/keys/@17/swipe_left: '['
+  preset_keyboards/qwerty/keys/@17/swipe_right: ']'
+  preset_keyboards/qwerty/keys/@17/swipe_up: '[]{Left}'
+  preset_keyboards/qwerty/keys/@17/swipe_down: '[]{Left}'
+  preset_keyboards/qwerty/keys/@18/long_click: '{}{Left}'
+  preset_keyboards/qwerty/keys/@18/swipe_left: '{'
+  preset_keyboards/qwerty/keys/@18/swipe_right: '}'
+  preset_keyboards/qwerty/keys/@18/swipe_up: '{}{Left}'
+  preset_keyboards/qwerty/keys/@18/swipe_down: '{}{Left}'
+  preset_keyboards/qwerty/keys/@19/long_click: ';'
   preset_keyboards/qwerty/keys/@19/swipe_up: ';'
-  preset_keyboards/qwerty/keys/@19/swipe_down: ';'
-  preset_keyboards/qwerty/keys/@22/swipe_up: '`'
-  preset_keyboards/qwerty/keys/@22/swipe_down: '`'
-  preset_keyboards/qwerty/keys/@23/swipe_up: cut
-  preset_keyboards/qwerty/keys/@23/swipe_down: cut
-  preset_keyboards/qwerty/keys/@24/swipe_up: copy
-  preset_keyboards/qwerty/keys/@24/swipe_down: copy
-  preset_keyboards/qwerty/keys/@25/swipe_up: paste
-  preset_keyboards/qwerty/keys/@25/swipe_down: paste
-  preset_keyboards/qwerty/keys/@26/swipe_down: Time
-  preset_keyboards/qwerty/keys/@27/long_click: '""{Left}'
-  preset_keyboards/qwerty/keys/@27/swipe_up: '""{Left}'
-  preset_keyboards/qwerty/keys/@27/swipe_down: '"'
-  preset_keyboards/qwerty/keys/@28/long_click: "''{Left}"
+  preset_keyboards/qwerty/keys/@19/swipe_down: ':'
+  preset_keys/Translate: {label: Go, command: run, option: "https://translate.google.com/?tl=zh-CN&text=%s"}
+  preset_keyboards/qwerty/keys/@22/long_click: Translate
+  preset_keyboards/qwerty/keys/@22/swipe_up: Translate
+  preset_keyboards/qwerty/keys/@22/swipe_down: Google
+  preset_keyboards/qwerty/keys/@23/long_click: select_all
+  preset_keyboards/qwerty/keys/@23/swipe_up: select_all
+  preset_keyboards/qwerty/keys/@23/swipe_down: select_all
+  preset_keyboards/qwerty/keys/@24/long_click: cut
+  preset_keyboards/qwerty/keys/@24/swipe_up: cut
+  preset_keyboards/qwerty/keys/@24/swipe_down: cut
+  preset_keyboards/qwerty/keys/@25/long_click: copy
+  preset_keyboards/qwerty/keys/@25/swipe_up: copy
+  preset_keyboards/qwerty/keys/@25/swipe_down: copy
+  preset_keyboards/qwerty/keys/@26/long_click: paste
+  preset_keyboards/qwerty/keys/@26/swipe_up: paste
+  preset_keyboards/qwerty/keys/@26/swipe_down: paste
+  preset_keyboards/qwerty/keys/@27/long_click: Time
+  preset_keyboards/qwerty/keys/@27/swipe_up: Date
+  preset_keyboards/qwerty/keys/@27/swipe_down: Time
+  preset_keyboards/qwerty/keys/@28/long_click: '""{Left}'
   preset_keyboards/qwerty/keys/@28/swipe_left: redo
   preset_keyboards/qwerty/keys/@28/swipe_right: undo
-  preset_keyboards/qwerty/keys/@28/swipe_up: "''{Left}"
+  preset_keyboards/qwerty/keys/@28/swipe_up: '"'
   preset_keyboards/qwerty/keys/@28/swipe_down: "'"
   preset_keyboards/qwerty/keys/@32/swipe_up: '<'
   preset_keyboards/qwerty/keys/@32/swipe_down: '<'
