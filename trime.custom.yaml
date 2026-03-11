@@ -1,5 +1,6 @@
 # trime.custom.yaml
 patch:
+  preset_keyboards/rime_ice/import_preset: qwerty
   preset_keyboards/luna_pinyin_simp/import_preset: qwerty
 
   preset_keyboards/qwerty/label_transform: uppercase
@@ -9,6 +10,7 @@ patch:
   style/candidate_text_size: 24
   style/candidate_padding: 24
   style/candidate_font: [HYQiHei55S.ttf, HanaMinB.ttf]
+  style/key_font: [Roboto-Regular.ttf, HYQiHei55S.ttf, HanaMinB.ttf]
 
   preset_keyboards/qwerty/keys/@0/click: a
   preset_keyboards/qwerty/keys/@1/click: b
@@ -67,7 +69,7 @@ patch:
   preset_keyboards/qwerty/keys/@15/swipe_right: Right
   preset_keyboards/qwerty/keys/@15/swipe_up: Up
   preset_keyboards/qwerty/keys/@15/swipe_down: Down
-  preset_keyboards/qwerty/keys/@16/long_click: liquid_keyboard_clipboard
+  preset_keyboards/qwerty/keys/@16/long_click: clipboard_window
   preset_keyboards/qwerty/keys/@16/swipe_left: Home
   preset_keyboards/qwerty/keys/@16/swipe_right: End
   preset_keyboards/qwerty/keys/@16/swipe_up: Page_Up
